@@ -1,0 +1,12 @@
+.header__lang-links {
+    display: flex;
+    gap: 18px;
+    align-items: flex-end;
+    margin: 18px 0 6px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 680px) { 
+    .header__lang-links {
+        margin: 14px 0 8px;
+    }
+}
