@@ -1,7 +1,7 @@
 .cover__link {
     display: flex;
     margin: 92px auto 92px;
-    background-image: url(/image/__background.jpg);
+    background-image: url(../../../image/__background.jpg);
     background-position: center;
     max-width: 1184px;
     min-height: 740px;
