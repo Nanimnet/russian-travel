@@ -6,6 +6,7 @@
     color: #ffffff;
     opacity: 100%;
     transition: linear 0.2s;
+    margin: 0;
 }
 
 .place__website_link:hover {

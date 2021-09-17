@@ -4,31 +4,23 @@
     line-height: 163%;
     color: #ffffff;
     margin: 26px 0 0;
-    min-width: 484px;
 }
 
 .place__paragraph:first-of-type {
     margin: 0;
 }
 
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
     .place__paragraph {
-        min-width: 456px;
+        max-width: 456px;
         margin: 27px 0 0;
     }
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
     .place__paragraph {
-        min-width: 352px;
+        max-width: 352px;
         margin: 25px 0 0;
         font-size: 16px;
     }
 }
-
-@media screen and (max-width: 320px) { 
-    .place__paragraph {
-        min-width: 288px;
-    }
-}
-

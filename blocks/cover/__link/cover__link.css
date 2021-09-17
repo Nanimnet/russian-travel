@@ -1,7 +1,7 @@
 .cover__link {
     display: flex;
     margin: 92px auto 92px;
-    background-image: url(../../../image/__background.jpg);
+    background-image: url(/image/__background.jpg);
     background-position: center;
     max-width: 1184px;
     min-height: 740px;
@@ -14,20 +14,20 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
     .cover__link {
         min-height: 640px;
     }
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
     .cover__link {
         min-height: 480px;
         margin: 90px auto 88px;
     }
 }
 
-@media screen and (max-width: 320px){ 
+@media screen and (max-width: 320px) {
     .cover__link {
         margin: 64px auto 66px;
         max-width: 320px;
