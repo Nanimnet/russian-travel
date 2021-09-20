@@ -18,21 +18,30 @@
 @media screen and (max-width: 768px) {
     .place {
         gap: 48px 28px;
-        margin-top: 80px;
+        margin-top: 73px;
         grid-template-columns: 340px 1fr;
         max-width: 720px;
         padding: 0 24px;
     }
-}
+} 
 
 @media screen and (max-width: 680px) {
     .place {
         gap: 32px;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 320px));
+        grid-template-columns: 280px 1fr;
         margin: 50px auto 0;
         padding: 0 16px;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .place {
+        gap: 32px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+        margin: 50px auto 0;
+        padding: 0 16px;
+    }
+} 
 
 @media screen and (max-width: 320px) {
     .place {

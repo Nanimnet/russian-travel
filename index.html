@@ -16,6 +16,8 @@
                     <a class="header__lang-link" href="#">En</a>
                 </div>
             </header>
+
+            <main class="content">
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -30,18 +32,23 @@
                     густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая
                     взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
                 </p>
-                <div class="intro__list">
-                    <p class="intro__list intro__list_item"><span class="intro__list intro__list_weight_bold">Часовых поясов</span> 11</p>
-                    <p class="intro__list intro__list_item"><span class="intro__list intro__list_weight_bold">Объектов природного наследия ЮНЕСКО</span> 12</p>
-                    <p class="intro__list intro__list_item"><span class="intro__list intro__list_weight_bold">Объектов культурного наследия ЮНЕСКО </span>16</p>
-                    <p class="intro__list intro__list_item"><span class="intro__list intro__list_weight_bold">Природных заповедников </span>105</p>
-                    <p class="intro__list intro__list_item"> <span class="intro__list intro__list_weight_bold">Аэропортов</span> 241</p>
+                <ul class="intro__list">
+                  <li>
+                      <p class="intro__item"><span class="intro__span-accent">Часовых поясов</span> 11</p>
+                  </li>
+                  <li>
+                    <p class="intro__item"><span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span> 12</p></li>
+                    <li>
+                    <p class="intro__item"><span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО </span>16</p></li>
+                    <li>
+                    <p class="intro__item"><span class="intro__span-accent">Природных заповедников </span>105</p></li>
+                    <li>
+                    <p class="intro__item"> <span class="intro__span-accent">Аэропортов</span> 241</p></li>
                    
-                </div>
+                </ul>
             </section>
 
             <section class="photo-grid">
-             <!--   <h2 class="photo-grid__hidden"></h2>-->
                 <img src="image/__item-1.jpg" class="photo-grid__item" alt="Поезд" />
                 <img src="image/__item-2.jpg" class="photo-grid__item" alt="Горы в облаках" />
                 <img src="image/__item-3.jpg" class="photo-grid__item" alt="Собака" />
@@ -57,11 +64,11 @@
             </section>
 
             <section class="places">
-                <div class="place">
+                <article class="place">
                     <h3 class="place__title">Куршская коса</h3>
                     <div class="place__website">
-                        <p class="place__website place__website_url-heading">URL</p>
-                        <a href="http://park-kosa.ru" target="_blank" class="place__website place__website_link">park-kosa.ru</a>
+                        <p class="place__url-heading">url</p>
+                        <a href="http://park-kosa.ru" target="_blank" class="place__link">park-kosa.ru</a>
                     </div>
 
                     <img class="place__image" src="image/__image1.jpg" alt="Куршская коса" />
@@ -76,13 +83,13 @@
                             городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
                         </p>
                     </div>
-                </div>
+                </article>
 
-                <div class="place">
+                <article class="place">
                     <h3 class="place__title">Кольский</h3>
                     <div class="place__website">
-                        <p class="place__website place__website_url-heading">URL</p>
-                        <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="place__website place__website_link">National Geographic</a>
+                        <p class="place__url-heading">url</p>
+                        <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="place__link">National Geographic</a>
                     </div>
 
                     <img class="place__image" src="image/__image2.jpg" alt="Кольский" />
@@ -94,13 +101,13 @@
                             интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.
                         </p>
                     </div>
-                </div>
+                </article>
 
-                <div class="place">
+                <article class="place">
                     <h3 class="place__title">Алтай</h3>
                     <div class="place__website">
-                        <p class="place__website place__website_url-heading">URL</p>
-                        <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" class="place__website place__website_link">Facebook</a>
+                        <p class="place__url-heading">url</p>
+                        <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" class="place__link">Facebook</a>
                     </div>
 
                     <img class="place__image" src="image/__image3.jpg" alt="Алтай" />
@@ -115,13 +122,13 @@
                             знаменитые манулы — тоже обитатели Алтайского края.
                         </p>
                     </div>
-                </div>
+                </article>
 
-                <div class="place">
+                <article class="place">
                     <h3 class="place__title">Зимний Байкал</h3>
                     <div class="place__website">
-                        <p class="place__website place__website_url-heading">URL</p>
-                        <a href="https://vk.com/baikalmile" target="_blank" class="place__website place__website_link">https://vk.com/baikalmile</a>
+                        <p class="place__url-heading">url</p>
+                        <a href="https://vk.com/baikalmile" target="_blank" class="place__link">https://vk.com/baikalmile</a>
                     </div>
 
                     <img class="place__image" src="image/__image4.jpg" alt="Зимний Байкал" />
@@ -133,13 +140,13 @@
                             В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
                         </p>
                     </div>
-                </div>
+                </article>
 
-                <div class="place">
+                <article class="place">
                     <h3 class="place__title">Карелия</h3>
                     <div class="place__website">
-                        <p class="place__website place__website_url-heading">URL</p>
-                        <a href="http://vodlozero.ru/" target="_blank" class="place__website place__website_link">http://vodlozero.ru/</a>
+                        <p class="place__url-heading">url</p>
+                        <a href="http://vodlozero.ru/" target="_blank" class="place__link">http://vodlozero.ru/</a>
                     </div>
 
                     <img class="place__image" src="image/__image5.jpg" alt="Карелия" />
@@ -151,7 +158,7 @@
                             встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
                         </p>
                     </div>
-                </div>
+                </article>
             </section>
 
             <section class="cover">
@@ -160,6 +167,7 @@
                     <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
                 </a>
             </section>
+        </main>
 
             <footer class="footer">
                 <nav class="footer__links">

@@ -3,7 +3,7 @@
     justify-content: space-between;
     padding: 28px 48px 0;
     margin: auto;
-    max-width: 100%;
+    max-width: 1280px;
 }
 
 @media screen and (max-width: 768px) {
@@ -14,13 +14,6 @@
 }
 
 @media screen and (max-width: 680px) {
-    .header {
-        justify-content: space-between;
-        padding: 16px 16px 0;
-    }
-}
-
-@media screen and (max-width: 320px) {
     .header {
         justify-content: space-between;
         padding: 16px 16px 0;

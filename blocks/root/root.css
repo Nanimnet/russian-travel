@@ -6,6 +6,10 @@
     min-width: 320px;
 }
 
+.content {
+
+}
+
 @media only screen and (max-width: 1280px) {
     .root {
         max-width: 1280px;

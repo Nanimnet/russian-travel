@@ -2,6 +2,7 @@
     display: flex;
     margin: 92px auto 92px;
     background-image: url(../../../image/__background.jpg);
+    background-size: cover;
     background-position: center;
     max-width: 1184px;
     min-height: 740px;

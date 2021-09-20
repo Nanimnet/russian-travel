@@ -1,9 +1,0 @@
-.intro__list_item {
-    margin: 2px 0 0 0;
-}
-
-@media screen and (max-width: 768px) {
-    .intro__list_item {
-        margin: 1px 0 0 0;
-    }
-}
