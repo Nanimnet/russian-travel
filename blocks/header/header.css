@@ -4,18 +4,17 @@
     padding: 28px 48px 0;
     margin: auto;
     max-width: 1280px;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
     .header {
-        justify-content: space-between;
         padding: 28px 24px 0;
     }
 }
 
 @media screen and (max-width: 680px) {
     .header {
-        justify-content: space-between;
         padding: 16px 16px 0;
     }
 }
